@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello from Denai Systems! CI/CD works!');
+  res.send('Hello from Denai Systems! CI/CD works! 1.1 version');
 });
 
 app.listen(port, () => {
